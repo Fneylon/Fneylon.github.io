@@ -3,7 +3,7 @@ title:              Portfolio Template
 email:              FionaNeylon2027@u.northwestern.edu
 description:        "Portfolio template for students in the MSR program at Northwestern University"
 url:                "https://fneylon.github.io./"
-baseurl:            /msr-student-template
+baseurl:            ""
 
 # File structure settings
 image_path:         /public/images
