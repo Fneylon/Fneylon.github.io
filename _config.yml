@@ -1,19 +1,34 @@
-# Site settings
-title:              Portfolio Template
-email:              FionaNeylon2027@u.northwestern.edu
-description:        "Portfolio template for students in the MSR program at Northwestern University"
-url:                "https://fneylon.github.io./"
-baseurl:            ""
+url: https://fneylon.github.io./
+baseurl: 
 
-# File structure settings
-image_path:         /public/images
+# Site settings
+title: Fiona Neylon
+email: FionaNeylon2027@u.northwestern.edu
+description: "Personal website detailing my professional and academic accomplishments in the field of assistive robotics."
+
+
+# Team names, titles and social links
+people:
+- name: Fiona Neylon
+  pic: 1
+  position: PhD Student @ Northwestern University
+  social:
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/fiona-neylon/
+    - title: github
+      url: https://github.com/Fneylon
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/fiona-neylon/
+  - title: github
+    url: https://github.com/Fneylon
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 2145 Sheridan Rd.
+  - line: Evanston, IL 60202
 
 # Build settings
-markdown:           kramdown
-permalink:          pretty
-
-# Collection definitions and settings
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
+markdown: kramdown
+permalink: pretty
