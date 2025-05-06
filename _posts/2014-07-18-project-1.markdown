@@ -3,6 +3,7 @@ title: BotROS
 subtitle: Pixel art painting project with the Franka Emika Panda robot.
 layout: default
 modal-id: 1
+tags: [ROS2, Robotics, Computer Vision, MoveIt]
 date: 2023-12-25
 img: botROS.png
 thumbnail: botROS.png
@@ -10,5 +11,5 @@ alt: image-alt
 project-date: Dec 2023
 category: ROS2 Robotics Projects
 description: The aim of this project was to paint dot an image using the Emika Franka Panda 7 DOF robotic arm. The system utilizes computer vision and color detection to identify the location of the brushes and various paint colors on a palette. The robot then plans and excecutes trajectories using a custom MoveIt API.
-
+github: https://github.com/Fneylon/BotROS
 ---

@@ -13,22 +13,27 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
+                            <!-- Add in the Tags with blocked format -->
+                             <li class="tags">
+                                {% for tag in post.tags %}
+                                <a class="boxed">{{ tag }}</a>
+                                {% endfor %}
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <h3>Brief Description</h3>
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
-                                </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                    <strong><a>{{ post.project-date }}</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                <li>Category:
+                                    <strong><a>{{ post.category }}</a>
                                     </strong>
                                 </li>
+                                <GitHub Link>
+                                    <strong><a href="{{ post.github }}">{{ post.github }}</a>
+                                    </strong>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
